@@ -31,7 +31,7 @@ else
 $(error Compiler not found in sysroot)
 endif
 COMMONFLAGS := -fvisibility=hidden -I$(WATERBOX_DIR)/emulibc -Wall -mcmodel=large \
-	-mstack-protector-guard=global -fno-pic -fno-pie -fcf-protection=none \
+	-mstack-protector-guard=global -fno-pic -fno-pie -fcf-protection=none -mno-red-zone \
 	-MD -MP
 CCFLAGS := $(COMMONFLAGS) $(CCFLAGS)
 LDFLAGS := $(LDFLAGS) -static -no-pie -Wl,--eh-frame-hdr,-O2 -T $(LINKSCRIPT) #-Wl,--plugin,$(LD_PLUGIN)
