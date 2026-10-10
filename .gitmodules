@@ -24,7 +24,7 @@
 	url = https://github.com/knik0/faad2.git
 [submodule "waterbox/musl"]
 	path = waterbox/musl
-	url = https://github.com/nattthebear/musl.git
+	url = https://github.com/mike-r129/musl.git
 [submodule "waterbox/nyma/mednafen"]
 	path = waterbox/nyma/mednafen
 	url = https://github.com/TASEmulators/mednafen.git
@@ -56,7 +56,7 @@
 	branch = biz_mupen64plus
 [submodule "waterbox/mame-arcade/mame"]
 	path = waterbox/mame-arcade/mame
-	url = https://github.com/TASEmulators/mame.git
+	url = https://github.com/mike-r129/mame.git
 	branch = mamehawk0252
 [submodule "ExternalProjects/librcheevos/rcheevos"]
 	path = ExternalProjects/librcheevos/rcheevos
