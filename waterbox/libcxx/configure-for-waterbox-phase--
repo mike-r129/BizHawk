@@ -9,8 +9,8 @@ rm -rf build-
 mkdir build-
 cd build-
 export ASMFLAGS="-w -mcmodel=large -mstack-protector-guard=global -fno-pic -fno-pie -fcf-protection=none -mno-red-zone"
-export CFLAGS="-w -mcmodel=large -mstack-protector-guard=global -fno-pic -fno-pie -fcf-protection=none -mno-red-zone -mno-red-zone"
-export CXXFLAGS="-w -mcmodel=large -mstack-protector-guard=global -fno-pic -fno-pie -fcf-protection=none -mno-red-zone -mno-red-zone -fno-use-cxa-atexit"
+export CFLAGS="-w -mcmodel=large -mstack-protector-guard=global -fno-pic -fno-pie -fcf-protection=none -mno-red-zone"
+export CXXFLAGS="-w -mcmodel=large -mstack-protector-guard=global -fno-pic -fno-pie -fcf-protection=none -mno-red-zone -fno-use-cxa-atexit"
 export LDFLAGS="-no-pie"
 
 cmake \
